@@ -86,7 +86,7 @@ const PlaydateScreen = ({ navigation }) => {
   };
   
   const renderItem = ({ item }) => {
-    console.log(item.status);
+    // console.log(item.status);
     return (
       <View style={styles.playdate}>
         <View style={styles.playdateInfo}>

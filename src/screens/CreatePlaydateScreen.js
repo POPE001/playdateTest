@@ -61,7 +61,7 @@ const CreatePlaydateScreen = ({ navigation }) => {
         channelId: 'playdates',
       };
       await sendPushNotification(message);
-      console.log(message);
+      // console.log(message);
 
       navigation.navigate('Home');
       return docRef.id;

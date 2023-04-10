@@ -3,7 +3,7 @@ import { View, Text, Button, Modal } from 'react-native';
 import PaystackWebView from 'react-native-paystack-webview';
 
 const CheckoutScreen = () => {
-    console.log('CheckoutScreen mounted');
+    // console.log('CheckoutScreen mounted');
 
   const [showPaystack, setShowPaystack] = useState(false);
 
